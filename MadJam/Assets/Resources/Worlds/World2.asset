@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: World2
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: e429617b834b1af4ba053700bdf5e41c, type: 3}
-  conversationData:
-  - {fileID: 11400000, guid: 7ace7d622dd445e4884e1e5e64ed565e, type: 2}
+  conversationData: {fileID: 11400000, guid: d3ac1332a4a7e7341899d9e6be515765, type: 2}
   statusInfluence: 4
   valueInfluence: 1
+  title: World2
+  description: Criatividade

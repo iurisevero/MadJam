@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: World3
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: c3aca671ab9514447bc4b12ef7a68f15, type: 3}
-  conversationData:
-  - {fileID: 11400000, guid: d3ac1332a4a7e7341899d9e6be515765, type: 2}
+  conversationData: {fileID: 11400000, guid: 7ace7d622dd445e4884e1e5e64ed565e, type: 2}
   statusInfluence: 8
   valueInfluence: 1
+  title: World3
+  description: Organizacao

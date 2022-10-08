@@ -11,6 +11,6 @@ public class AssetCreator
   [MenuItem("Assets/Create/World")]
   public static void CreateWorld ()
   {
-    ScriptableObjectUtility.CreateAsset<World> ();
+    ScriptableObjectUtility.CreateAsset<WorldData> ();
   }
 }

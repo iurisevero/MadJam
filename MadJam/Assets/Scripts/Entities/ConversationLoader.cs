@@ -14,7 +14,6 @@ public class ConversationLoader : Singleton<ConversationLoader>
     public void LoadConversations(){
         List<ConversationData> conversationDatas = new List<ConversationData>(Resources.LoadAll<ConversationData>("Conversations/"));
         foreach(ConversationData conversation in conversationDatas){
-            Debug.Log(conversation.name);
             conversations[conversation.name] = conversation;
         }
     }

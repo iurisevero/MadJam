@@ -8,18 +8,14 @@ public class Controller : StateMachine
     // public IEnumerator round;
     public MenuController menuController;
     public ConversationController conversationController;
+    public StatusController statusController;
+    public WorldChoiceController worldChoiceController;
     public Queue<ConversationData> toPlayConversation;
     public Queue<States> afterConversationState;
 
     void Start(){
         toPlayConversation = new Queue<ConversationData>();
         afterConversationState = new Queue<States>();
-        ChangeState<MenuState>();
-        // StartCoroutine(WaitAFrame());
-    }
-
-    IEnumerator WaitAFrame(){
-        yield return new WaitForEndOfFrame();
         ChangeState<MenuState>();
     }
 }

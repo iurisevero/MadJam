@@ -11,6 +11,8 @@ public class BaseState : State
     protected Controller owner;
     public MenuController menuController { get { return owner.menuController;}}
     public ConversationController conversationController { get { return owner.conversationController; }}
+    public StatusController statusController { get { return owner.statusController; }}
+    public WorldChoiceController worldChoiceController { get { return owner.worldChoiceController; }}
 
     protected virtual void Awake(){
         owner = GetComponent<Controller>();

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: World4
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 1469ee34f40103d4481ab1a84bf5359d, type: 3}
-  conversationData:
-  - {fileID: 11400000, guid: 7ace7d622dd445e4884e1e5e64ed565e, type: 2}
+  conversationData: {fileID: 11400000, guid: 7ace7d622dd445e4884e1e5e64ed565e, type: 2}
   statusInfluence: 16
   valueInfluence: 1
+  title: World4
+  description: Sociabilidade

@@ -20,8 +20,8 @@ public class HelperState : BaseState
             case States.Base:
                 owner.ChangeState<BaseState>();
                 break;
-            case States.Build:
-                owner.ChangeState<BuildState>();
+            case States.WorldChoice:
+                owner.ChangeState<WorldChoiceState>();
                 break;
             case States.CutScene:
                 owner.ChangeState<CutSceneState>();

@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Week : Singleton<Week>
 {
-    public List<World> confidenceWorlds;
-    public List<World> creativityWorlds;
-    public List<World> organizationWorlds;
-    public List<World> sociabilityWorlds;
-    public World etBilu;
+    public List<WorldData> confidenceWorlds;
+    public List<WorldData> creativityWorlds;
+    public List<WorldData> organizationWorlds;
+    public List<WorldData> sociabilityWorlds;
+    public WorldData etBilu;
 
     public int dayCount = 0;
-    public List<List<World>> week;
+    public List<List<WorldData>> week;
 
     public void SetWeek(){
         dayCount = 0;
@@ -20,25 +20,25 @@ public class Week : Singleton<Week>
         List<int> organizationWorldIndex = new List<int>(FillIndex(organizationWorlds.Count));
         List<int> sociabilityWorldIndex = new List<int>(FillIndex(sociabilityWorlds.Count));
         
-        List<World> day1 = new List<World>();
+        List<WorldData> day1 = new List<WorldData>();
         day1.Add(confidenceWorlds[GetRandomIndex(confidenceWorldIndex)]);
         day1.Add(organizationWorlds[GetRandomIndex(organizationWorldIndex)]);
         day1.Add(sociabilityWorlds[GetRandomIndex(sociabilityWorldIndex)]);
         day1.Shuffle();
 
-        List<World> day2 = new List<World>();
+        List<WorldData> day2 = new List<WorldData>();
         day2.Add(creativityWorlds[GetRandomIndex(creativityWorldIndex)]);
         day2.Add(organizationWorlds[GetRandomIndex(organizationWorldIndex)]);
         day2.Add(confidenceWorlds[GetRandomIndex(confidenceWorldIndex)]);
         day2.Shuffle();
 
-        List<World> day3 = new List<World>();
+        List<WorldData> day3 = new List<WorldData>();
         day3.Add(sociabilityWorlds[GetRandomIndex(sociabilityWorldIndex)]);
         day3.Add(etBilu);
         day3.Add(creativityWorlds[GetRandomIndex(creativityWorldIndex)]);
         day3.Shuffle();
 
-        week = new List<List<World>>();
+        week = new List<List<WorldData>>();
         week.Add(day1);
         week.Add(day2);
         week.Add(day3);

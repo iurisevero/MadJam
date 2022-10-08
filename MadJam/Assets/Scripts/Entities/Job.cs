@@ -18,7 +18,7 @@ public class Job : Singleton<Job>
         mainStatus.RemoveAt(Random.Range(0, mainStatus.Count));
         mainStatus.RemoveAt(Random.Range(0, mainStatus.Count));
 
-        status1Value = Random.Range(0, 5);
-        status2Value = Random.Range(0, 5);
+        status1Value = 7; // Random.Range(0, 5);
+        status2Value = 6; // Random.Range(0, 5);
     }
 }

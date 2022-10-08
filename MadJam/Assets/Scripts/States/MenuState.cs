@@ -10,12 +10,14 @@ public class MenuState : BaseState
 
     public override void Enter(){
         base.Enter();
+        statusController.Hide();
         menuController.Show();
     }
 
     public override void Exit(){
         base.Exit();
         menuController.Hide();
+        statusController.Show();
     }
 
     protected override void AddListeners(){
@@ -33,10 +35,11 @@ public class MenuState : BaseState
         Player.Instance.SetStatus(5, 5, 5, 5);
         Job.Instance.SetRandomStatus();
         Week.Instance.SetWeek();
+        owner.statusController.UpdateStatusValue();
         owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["IntroScene"]);
         owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["TesteScene"]);
         owner.afterConversationState.Enqueue(States.CutScene);
-        owner.afterConversationState.Enqueue(States.Menu);
+        owner.afterConversationState.Enqueue(States.WorldChoice);
         owner.ChangeState<CutSceneState>();
 	}
 }

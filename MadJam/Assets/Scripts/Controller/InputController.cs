@@ -14,7 +14,6 @@ public class InputController : MonoBehaviour
 
     void Update(){
         if(Input.GetMouseButtonDown(_fire_number)){
-            Debug.Log("Input Controller Post FireNotification");
             this.PostNotification(FireNotification, new Info<int>(_fire_number));
         }
 

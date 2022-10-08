@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: World1
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: d0671c21c582dd94ab285207082922f3, type: 3}
-  conversationData:
-  - {fileID: 11400000, guid: d3ac1332a4a7e7341899d9e6be515765, type: 2}
+  conversationData: {fileID: 11400000, guid: d3ac1332a4a7e7341899d9e6be515765, type: 2}
   statusInfluence: 2
   valueInfluence: 1
+  title: World1
+  description: Confianca

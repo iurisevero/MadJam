@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class World : ScriptableObject
+public class WorldData : ScriptableObject
 {
     public Sprite sprite;
-    public List<ConversationData> conversationData;
+    public ConversationData conversationData;
     public Status statusInfluence;
     public int valueInfluence;
+    public string title;
+    public string description;
 }

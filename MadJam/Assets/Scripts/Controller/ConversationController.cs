@@ -32,7 +32,6 @@ public class ConversationController : MonoBehaviour
 
     IEnumerator Sequence(ConversationData data){
         background.sprite = data.background;
-        Debug.Log("ConversationController dataCount: " + data.list.Count);
         for(int i = 0; i < data.list.Count; ++i){
             SpeakerData sd = data.list[i];
             ConversationPanel currentPanel = (sd.leftPanel? leftPanel : rightPanel);
@@ -54,7 +53,6 @@ public class ConversationController : MonoBehaviour
 
             yield return null;
         }
-        Debug.Log("ConversationController after for");
         canvas.gameObject.SetActive(false);
         if (completeEvent != null)
             completeEvent(this, EventArgs.Empty);
