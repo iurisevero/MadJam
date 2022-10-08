@@ -7,4 +7,10 @@ public class AssetCreator
   {
     ScriptableObjectUtility.CreateAsset<ConversationData> ();
   }
+
+  [MenuItem("Assets/Create/World")]
+  public static void CreateWorld ()
+  {
+    ScriptableObjectUtility.CreateAsset<World> ();
+  }
 }

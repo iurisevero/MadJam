@@ -6,10 +6,13 @@ using UnityEngine.UI;
 
 public class ConversationController : MonoBehaviour
 {
-    const string _Show = "Show";
-    const string _Hide = "Hide";
+    const string ShowKey = "Show";
+    const string HideKey = "Hide";
+    const string LeftKey = "Left";
+    const string RightKey = "Right";
 
     [SerializeField] Image background;
+    [SerializeField] Panel backgroundPanel;
     [SerializeField] ConversationPanel leftPanel;
     [SerializeField] ConversationPanel rightPanel;
     Canvas canvas;
@@ -21,35 +24,37 @@ public class ConversationController : MonoBehaviour
     void Start(){
         canvas = GetComponentInChildren<Canvas>();
         if(leftPanel.panel.CurrentPosition == null)
-            leftPanel.panel.SetPosition(_Hide, false);
+            leftPanel.panel.SetPosition(HideKey, false);
         if(rightPanel.panel.CurrentPosition == null)
-            rightPanel.panel.SetPosition(_Hide, false);
+            rightPanel.panel.SetPosition(HideKey, false);
         canvas.gameObject.SetActive(false);
     }
 
     IEnumerator Sequence(ConversationData data){
         background.sprite = data.background;
+        Debug.Log("ConversationController dataCount: " + data.list.Count);
         for(int i = 0; i < data.list.Count; ++i){
             SpeakerData sd = data.list[i];
             ConversationPanel currentPanel = (sd.leftPanel? leftPanel : rightPanel);
+            MovePanel(backgroundPanel, sd.leftPanel? LeftKey : RightKey);
             IEnumerator presenter = currentPanel.Display(sd);
             presenter.MoveNext();
 
-            currentPanel.panel.SetPosition(_Hide, false);
-            MovePanel(currentPanel, _Show);
+            currentPanel.panel.SetPosition(HideKey, false);
+            MovePanel(currentPanel, ShowKey);
 
             yield return null;
             while (presenter.MoveNext())
                 yield return null;
 
-            MovePanel(currentPanel, _Hide);
+            MovePanel(currentPanel, HideKey);
             transition.completedEvent += delegate(object sender, EventArgs e) {
                 conversation.MoveNext();
             };
 
             yield return null;
         }
-
+        Debug.Log("ConversationController after for");
         canvas.gameObject.SetActive(false);
         if (completeEvent != null)
             completeEvent(this, EventArgs.Empty);
@@ -57,6 +62,12 @@ public class ConversationController : MonoBehaviour
 
     void MovePanel(ConversationPanel obj, string pos){
         transition = obj.panel.SetPosition(pos, true);
+        transition.duration = 0.5f;
+        transition.equation = EasingEquations.EaseOutQuad;
+    }
+
+    void MovePanel(Panel panel, string pos){
+        transition = panel.SetPosition(pos, true);
         transition.duration = 0.5f;
         transition.equation = EasingEquations.EaseOutQuad;
     }

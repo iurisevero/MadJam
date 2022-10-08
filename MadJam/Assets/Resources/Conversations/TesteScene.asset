@@ -10,31 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
-  m_Name: IntroScene
+  m_Name: TesteScene
   m_EditorClassIdentifier: 
   list:
   - messages:
-    - Oi
-    - tudo bem?
-    - Como voce esta?
-    speaker:
-    - {fileID: 21300000, guid: 1469ee34f40103d4481ab1a84bf5359d, type: 3}
-    - {fileID: 21300000, guid: 1469ee34f40103d4481ab1a84bf5359d, type: 3}
-    - {fileID: 21300000, guid: 1469ee34f40103d4481ab1a84bf5359d, type: 3}
-    leftPanel: 1
-  - messages:
-    - Nao quero falar com voce
+    - Surpresa, eu voltei!
     speaker:
     - {fileID: 21300000, guid: dcd7aed04364fb34bb7015ecec258b27, type: 3}
     leftPanel: 0
   - messages:
-    - Quer sim!
+    - Oh no!
     speaker:
     - {fileID: 21300000, guid: 1469ee34f40103d4481ab1a84bf5359d, type: 3}
     leftPanel: 1
-  - messages:
-    - Nao quero nao
-    speaker:
-    - {fileID: 21300000, guid: dcd7aed04364fb34bb7015ecec258b27, type: 3}
-    leftPanel: 0
-  background: {fileID: 21300000, guid: a2c30774bf972a242b09ecae83aca62f, type: 3}
+  background: {fileID: 21300000, guid: 207fb24c385c8234494df466e051781a, type: 3}

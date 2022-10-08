@@ -9,6 +9,7 @@ public class BaseState : State
     protected const int maxZoom = 5;
     protected const float maxDistance = 5f;
     protected Controller owner;
+    public MenuController menuController { get { return owner.menuController;}}
     public ConversationController conversationController { get { return owner.conversationController; }}
 
     protected virtual void Awake(){

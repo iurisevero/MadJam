@@ -19,6 +19,7 @@ public class StateMachine : MonoBehaviour
     }
 
     public virtual void ChangeState<T>() where T : State{
+        Debug.Log("ChangeState" + typeof(T).Name);
         CurrentState = GetState<T>();
     }
 

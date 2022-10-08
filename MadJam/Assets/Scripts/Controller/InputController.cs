@@ -14,19 +14,13 @@ public class InputController : MonoBehaviour
 
     void Update(){
         if(Input.GetMouseButtonDown(_fire_number)){
-            downClickTime = Time.time;
+            Debug.Log("Input Controller Post FireNotification");
+            this.PostNotification(FireNotification, new Info<int>(_fire_number));
         }
 
-        if(Input.touchCount <= 1){  // One touch or mouse
-            if(Input.GetMouseButtonUp(_fire_number)){
-                if(Time.time - downClickTime <= ClickDeltaTime){  // Click
-                    this.PostNotification(FireNotification, new Info<int>(_fire_number));
-                }
-            }
+        if(Input.GetKeyDown(KeyCode.Return)){
+            this.PostNotification(FireNotification, new Info<int>(_fire_number));
         }
-        // if(Input.GetKeyDown(KeyCode.Return)){
-        //     this.PostNotification(FireNotification, new Info<int>(_fire_number));
-        // }
     }
 
     /// <summary>
