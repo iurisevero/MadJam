@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Ciclista
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - "Ol\xE1, Jurema! Eu tenho uma bicicleta sobrando, quer vir andar comigo?"
+    speaker:
+    - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Na verdade eu estou com um pouco de pressa\u2026 Preciso achar um jeito de
+      ter todas as habilidades para a minha entrevista o mais r\xE1pido poss\xEDvel.
+      N\xE3o posso perder essa oportuidade."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Est\xE3o todos sempre ocupados. Sempre com pressa, querendo andar de carro
+      daqui pra l\xE1, de portal, ou o que quer que seja. Voc\xEAs precisam aproveitar
+      mais a vida! Deste que comecei a pedalar em grupo, eu fiquei mais em sintonia
+      com a sociedade."
+    - "Foi assim que consegui o emprego que eu mais queria: s\xF3 pela SOCIABILIDADE.
+      Tente fazer sua profiss\xE3o por amor, veja como voc\xEA faz parte do seu grupo,
+      e a\xED voc\xEA vai tirar de letra qualquer coisa. Se tiver alguma d\xFAvida,
+      \xE9 s\xF3 pedir ajuda para o seu colega, e algum dia ele vai precisar da sua
+      ajuda tamb\xE9m."
+    - '*+1 SOCIABILIDADE*'
+    speaker:
+    - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
+    - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
+    - {fileID: 21300000, guid: a295fcde282cea141874f2ba2f9e0201, type: 3}
+    leftPanel: 0
+  background: {fileID: 21300000, guid: c8671950622e9814b92d1a16ab60bff9, type: 3}

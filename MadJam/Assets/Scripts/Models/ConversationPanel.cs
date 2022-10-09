@@ -9,6 +9,7 @@ public class ConversationPanel : MonoBehaviour
     public TextMeshProUGUI message;
     public Image speaker;
     public GameObject arrow;
+    public GameObject talkPanel;
     public Panel panel;
 
     void Start()
@@ -28,6 +29,7 @@ public class ConversationPanel : MonoBehaviour
         {
             speaker.sprite = sd.speaker[i];
             message.text = sd.messages[i];
+            talkPanel.SetActive(!string.IsNullOrEmpty(message.text));
             arrow.SetActive(i + 1 < sd.messages.Count);
             yield return null;
         }

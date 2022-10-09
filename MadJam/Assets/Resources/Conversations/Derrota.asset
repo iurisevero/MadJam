@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Derrota
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - "Bom, quem falta? Hmmm, Jurema. Espero que acabe logo, n\xE3o tenho tempo pra
+      essas coisas. Hoje em dia n\xE3o acho gente qualificada para Assistente de
+      Coveiro, n\xE3o sei porque continuam tentando. Cad\xEA a Jurema?"
+    speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
+    leftPanel: 0
+  - messages:
+    - Sou eu.. Vim aqui fazer a entrevista.
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Sinto uma hesita\xE7\xE3o em sua voz\u2026 Ser\xE1 falta de CONFIAN\xC7A?
+      Vamos dar uma olhada no seu perfil"
+    speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
+    leftPanel: 0
+  - messages:
+    - "*Madares olha o seu curr\xEDculo, e te analisa mais atentamente*"
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Ok. N\xE3o sei se \xE9 o suficiente, mas vamos ver os demais requisitos. N\xE3o
+      se faz nada sem disciplina. Como anda sua ORGANIZA\xC7\xC3O?"
+    - "*Madares d\xE1 uma lenta e prolongada olhada no seu curr\xEDculo*"
+    - "Agora vamos ver o resto do seu\u2026 curr\xEDculo. Eu preciso terminar de
+      ver essas\u2026 coisas que voc\xEA acha que conseguiu antes. Faltam s\xF3 duas.
+      Vamos ver sua SOCIABILIDADE."
+    speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
+    leftPanel: 0
+  - messages:
+    - "*Madares te encara, e um nervosismo te pega de repente. Voc\xEA precisa falar
+      alguma coisa, mas a viagem pelos portais te exauriu, e voc\xEA esquece o que
+      Madares tinha perguntado. Voc\xEA olha para Madares, aflita, mas n\xE3o consegue
+      se lembrar do que estavam conversando.*"
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Bom, agora a \xFAltima parte. Como voc\xEA consegue se considerar criativa
+      e ter esses outros atributos? A criatividade \xE9 algo leve, flu\xEDdo, que
+      poucos conseguem ter. Pelo seu rosto, certamente voc\xEA n\xE3o usa essa massa
+      cinzenta entre suas orelhas para pensar sobre a CRIATIVIDADE."
+    speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Eu sempre me esfor\xE7o para encontrar solu\xE7\xF5es criativas."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "N\xE3o acho que voc\xEA esteja preparada para esse cargo. Mas voc\xEA tem
+      v\xE1rios caminhos poss\xEDveis, e a partir do que voc\xEA for aprendendo no
+      caminho, talvez uma hora voc\xEA consiga alguma coisa de bom. Agora suma da
+      minha frente."
+    speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
+    leftPanel: 0
+  background: {fileID: 21300000, guid: 23836174f140a6b4a8bf0d87169bc801, type: 3}

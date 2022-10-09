@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Cemiterio
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - "Aaaaah, o ar fresco do cemit\xE9rio. Como \xE9 bom estar aqui, tantas pessoas
+      num s\xF3 lugar, e sem me incomodar."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Voc\xEA tem certeza que quer mesmo fazer isso?"
+    speaker:
+    - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Mas \xE9 claro que tenho. Que sa\xEDda eu tenho? Preciso aprender tudo isso
+      em TR\xCAS DIAS. S\xF3 com a sua ajuda eu posso come\xE7ar a pensar como resolver
+      minha vida."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Bom\u2026 Que assim seja"
+    speaker:
+    - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
+    leftPanel: 0
+  background: {fileID: 21300000, guid: dc1d8e7a4f5e2834592eee7d29e7db63, type: 3}

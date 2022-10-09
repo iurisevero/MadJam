@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class StatusExtension
 {
-    public static string ToString(this Status status){
+    public static string ToCustomString(this Status status){
         switch (status)
         {
             case Status.Confidence:

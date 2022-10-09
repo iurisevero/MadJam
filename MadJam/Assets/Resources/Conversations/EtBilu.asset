@@ -14,8 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - messages:
-    - BUSQUEM CONHECIMENTO!
+    - "Ent\xE3o\u2026 Voc\xEA finalmente veio at\xE9 mim."
+    - "Voc\xEA veio atr\xE1s do bem mais valioso, n\xE3o \xE9 mesmo? Todos acham
+      que sabem o que querem, muitos acham que sabem o que est\xE3o fazendo, mas
+      apenas alguns conseguem sair dessa bolha de confus\xE3o e desordem."
+    - "At\xE9 onde vai o universo? T\xE3o longe quanto pode ir o conhecimento, ou
+      at\xE9 mais al\xE9m. \xC9 necess\xE1rio interagir muito com esse mundo, com
+      as pessoas que nela est\xE3o, para conseguir chegar mais longe."
+    - "\xC9, eu sei pela sua cara que voc\xEA n\xE3o gosta de pessoas, n\xE3o \xE9
+      mesmo? Mas s\xE3o elas que ir\xE3o lhe ajudar nessa jornada, e voc\xEA ajudar\xE1
+      essas pessoas tamb\xE9m, mesmo sem se dar conta disso"
+    - "As pessoas v\xE3o e vem, mas sempre trazem algo. E \xE9 nesse miasma de gente,
+      \xE9 nessa aglomera\xE7\xE3o de ideias diferentes, que voc\xEA se encontra,
+      e \xE9 atrav\xE9s dele que toda a criatividade de expande e contrai, em um
+      fluxo cont\xEDnuo e ininterrupto de coisas complexas e inacabadas, mas que
+      ainda assim n\xE3o deixam de ser."
+    - "Mas j\xE1 tomei muito do seu tempo. As coisas s\xE3o ef\xEAmeras, as part\xEDculas
+      da vida est\xE3o intrinsecamente ligadas ao universo e \xE0 infinitude de tudo,
+      e ainda assim n\xE3o a percebemos. Precisamos extrapolar o \xF3bvio, para conseguir
+      entender todos esses aprendizados vivenciados no dia a dia, e que eu vou simplificar
+      para voc\xEAs de uma forma muito, muito simples."
+    - "Desligue o celular. Preste aten\xE7\xE3o. Eu tenho essa mensagem para voc\xEA. "
+    - "Apenas que\u2026 busquem conhecimento "
     speaker:
-    - {fileID: 21300000, guid: dcd7aed04364fb34bb7015ecec258b27, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
     leftPanel: 0
-  background: {fileID: 21300000, guid: d0671c21c582dd94ab285207082922f3, type: 3}
+  background: {fileID: 21300000, guid: 609621cc008e99945b3d010cbd252a2f, type: 3}

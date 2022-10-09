@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
+  m_Name: Ciclista
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  conversationData: {fileID: 11400000, guid: 360767b7e1076b847bbd069b6db340be, type: 2}
+  statusInfluence: 16
+  valueInfluence: 1
+  title: Esportivo
+  description: Venha se exercitar com a galera!

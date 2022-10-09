@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Musculosa
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - "H\xE1! Voc\xEA finalmente me achou. Se bem que com todos esses m\xFAsculos,
+      \xE9 bem dif\xEDcil n\xE3o me ver, n\xE3o \xE9 mesmo?"
+    - "Fa\xE7a logo, fa\xE7a sem pensar! Algumas boas decis\xF5es podem ser feitas
+      s\xF3 pelo improviso, e pela CONFIAN\xC7A."
+    - "*+1 CONFIAN\xC7A*"
+    speaker:
+    - {fileID: 21300000, guid: 7b29bce1d01dd424f91b9bdc994fe83d, type: 3}
+    - {fileID: 21300000, guid: 7b29bce1d01dd424f91b9bdc994fe83d, type: 3}
+    - {fileID: 21300000, guid: a295fcde282cea141874f2ba2f9e0201, type: 3}
+    leftPanel: 0
+  background: {fileID: 21300000, guid: cf94548f4a6f55d4cb75f4885c40ff5c, type: 3}

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - 
+    speaker:
+    - {fileID: 21300000, guid: 872e5bc067dec214f9d7025bdd04402f, type: 3}
+    leftPanel: 0
+  - messages:
+    - Como posso fazer para pagar todas essas contas?Estou com risco de ser expulsa
+      de casa na semana que vem.
+    - "O que eu posso fazer? N\xE3o tem emprego nessa cidade. J\xE1 tentei de tudo,
+      mas est\xE1 todo mundo precisando tamb\xE9m, e parece que sempre tem algu\xE9m
+      mais r\xE1pido e qualificado que eu. Preciso conseguir um emprego e R\xC1PIDO. "
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - 
+    speaker:
+    - {fileID: 21300000, guid: 5caec47980d2daa4e9782c75f522e050, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Ah, pelo menos um! Vamos ver\u2026 Assistente de coveiro. Precisa enterrar
+      pessoas, e mesmo assim eu ainda tenho muita coisa pra correr atr\xE1s, para
+      conseguir esse emprego. Vamos ver o que eles pedem\u2026"
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "REQUISITOS PARA O EMPREGO:      CONFIAN\xC7A, CRIATIVIDADE, ORGANIZA\xC7\xC3O
+      E SOCIABILIDADE"
+    speaker:
+    - {fileID: 21300000, guid: 6dcc008da9684f742970dfb02d8888bd, type: 3}
+    leftPanel: 0
+  - messages:
+    - "CONFIAN\xC7A. Como vou conseguir isso? Eu n\xE3o tenho nem um emprego, pra
+      onde fica minha confian\xE7a com isso?"
+    - "SOCIABILIDADE? S\xF3 algu\xE9m muito insuport\xE1vel para ser soci\xE1vel.
+      Detesto gente, mas aparentemente n\xE3o posso ser remunerada por s\xF3 querer
+      fazer meu trabalho."
+    - "Bom, ORGANIZA\xC7\xC3O E CRIATIVIDADE, acho que \xE9 quase a mesma coisa,
+      n\xE9? Quer dizer, preciso organizar minhas ideias para poder pensar, e quando
+      se pensa j\xE1 se \xE9 criativo, n\xE3o \xE9? Ai, ai. At\xE9 ser um assistente
+      de coveiro \xE9 dif\xEDcil nesse planeta."
+    - "Mas talvez algu\xE9m possa me ajudar\u2026 S\xF3 preciso ver se ele est\xE1
+      acordado a essa hora. Ainda s\xE3o 4 da tarde e ele s\xF3 acorda depois das
+      5."
+    - '*O celular toca algumas vezes*'
+    - "Oi, \xE9 da casa do Jurandir? Aqui \xE9 a Jurema, amiga dele."
+    - ...
+    - "\xC9, eu sei que ele est\xE1 dormindo. Voc\xEA pode acordar ele? Eu preciso
+      de uma ajuda URGENTE."
+    - ...
+    - "\xC9, eu sei que ele n\xE3o acorda f\xE1cil. Tenta um balde de \xE1gua fria."
+    - ...
+    - "J\xE1 tentou? Hm\u2026 Ah, ent\xE3o deixa que eu vou a\xED e dou um jeito
+      ent\xE3o."
+    - ...
+    - "Matar o Jurandir? N\xE3\xE3\xE3o, n\xE3o vou matar ele n\xE3o. Eu s\xF3 preciso
+      fazer um caf\xE9, que s\xF3 pelo cheiro ele acorda. Caf\xE9 \xE9 a \xFAnica
+      coisa que ele gosta mais do que dormir."
+    - ...
+    - "\xC9, o Jurandir tem uns gostos estranhos. Ele mudou muito depois que comprou
+      o livro da shopee."
+    - ...
+    - "Isso, o padre da festa junina tamb\xE9m tem roupa l\xE1. Mas acho que n\xE3o
+      precisa se preocupar n\xE3o, o Jurandir \xE9 mais das for\xE7as ocultas, de
+      fazer portal em t\xFAmulo de cemit\xE9rio e acender aqueles incensos que deixa
+      todo mundo com alergia. Ele n\xE3o vai querer essa t\xFAnica esquisita n\xE3o."
+    - ...
+    - "Ah, tudo bem, dona L\xFAcia, vou te deixar trabalhar por a\xED. Daqui a pouco
+      eu passo a\xED e arranco o Jurandir da cama, mas pode deixar que vou tomar
+      cuidado pra n\xE3o matar seu filho no processo. Vou indo ent\xE3o, um beijo"
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  background: {fileID: 21300000, guid: a2c30774bf972a242b09ecae83aca62f, type: 3}

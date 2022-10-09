@@ -32,11 +32,13 @@ public class WorldChoiceState : BaseState
         if(dayCount >= 3){
             bool status1 = CheckStatus(Job.Instance.mainStatus[0], Job.Instance.status1Value);
             bool status2 = CheckStatus(Job.Instance.mainStatus[1], Job.Instance.status2Value);
-            owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["IntroScene"]);
+            owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Cemiterio2"]);
+            owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["DiaSeguinte"]);
             if(status1 && status2)
-                owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["TesteScene"]);
+                owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Vitoria"]);
             else
-                owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["IntroScene"]);
+                owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Derrota"]);
+            owner.afterConversationState.Enqueue(States.CutScene);
             owner.afterConversationState.Enqueue(States.CutScene);
             owner.afterConversationState.Enqueue(States.Menu);
             owner.ChangeState<CutSceneState>();

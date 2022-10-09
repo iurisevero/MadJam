@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2746d93e68d15d4eb92ec2cae3bca4d, type: 3}
+  m_Name: Astronauta
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - "Menina, esse neg\xF3cio de morar no espa\xE7o \xE9 uma correria! N\xE3o acredito
+      que at\xE9 agora eu consegui manter todas minhas ferramentas comigo."
+    - "Eu s\xF3 preciso achar um jeito de escrever tudo o que eu vejo no espa\xE7o;
+      minha caneta espacial desintegrou, e tem muita coisa que eu ainda quero registrar,
+      antes que eu me esque\xE7a."
+    - "Bom, onde est\xE1vamos? Ah, eu ia te ajudar, n\xE3o \xE9 mesmo? Pois bem,
+      aqui vai meu conselho: voc\xEA usa a disciplina para conseguir as coisas. Mantenha
+      sua cabe\xE7a leve, tenha amor pelas suas coisas, e deixe a ORGANIZA\xC7\xC3O
+      tomar conta da sua vida."
+    - "*+1 ORGANIZA\xC7\xC2O*"
+    speaker:
+    - {fileID: 21300000, guid: c1bf524303cb25546acb720cdf1f8fba, type: 3}
+    - {fileID: 21300000, guid: c1bf524303cb25546acb720cdf1f8fba, type: 3}
+    - {fileID: 21300000, guid: c1bf524303cb25546acb720cdf1f8fba, type: 3}
+    - {fileID: 21300000, guid: a295fcde282cea141874f2ba2f9e0201, type: 3}
+    leftPanel: 0
+  background: {fileID: 21300000, guid: 48022d1c56809794d90c963ea0e0444a, type: 3}
