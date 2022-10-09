@@ -32,7 +32,43 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     leftPanel: 1
   - messages:
-    - "Bom\u2026 Que assim seja"
+    - "N\xE3o sei se voc\xEA sabe o perigo em que est\xE1 se metendo. Enquanto voc\xEA
+      est\xE1 nesse portal, voc\xEA n\xE3o ir\xE1 comer nem beber. N\xE3o sentir\xE1
+      fome nem sede. Se ficar no portal por mais de tr\xEAs dias, voc\xEA ir\xE1
+      morrer desidratada."
+    speaker:
+    - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Ah, que seja. J\xE1 estamos num cemit\xE9rio, e voc\xEA fica me falando pra
+      eu ter medo da morte? Tr\xEAs dias \xE9 tudo que eu preciso. Minha entrevista
+      de emprego \xE9 em tr\xEAs dias mesmo."
+    - "Eu s\xF3 preciso de ajuda pra conjurar esses portais. Eu REALMENTE preciso
+      passar nesse emprego. S\xF3 me fala r\xE1pido como funciona isso, porque estou
+      com pressa."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "No portal, voc\xEA consegue se conectar com voc\xEA mesmo de outros universos.
+      Essas vers\xF5es j\xE1 passaram na entrevista de emprego, e podem te dar dicas
+      muito valiosas para que voc\xEA seja bem sucedida. "
+    - "Mas lembre-se: a conex\xE3o exige muito de voc\xEA. Voc\xEA poder\xE1 viajar
+      apenas um universo por dia. Voc\xEA tem mesmo certeza de que \xE9 isso que
+      voc\xEA quer isso?"
+    speaker:
+    - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
+    - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
+    leftPanel: 0
+  - messages:
+    - "Vai logo com isso. Tenho uma quantidade horr\xEDvel de contas a pagar. Preciso
+      fazer isso."
+    speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    leftPanel: 1
+  - messages:
+    - "Bom\u2026 Que assim seja. "
     speaker:
     - {fileID: 21300000, guid: 407987adbca0fcb4f8d98a53bbaa13b5, type: 3}
     leftPanel: 0

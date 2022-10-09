@@ -14,6 +14,7 @@ public class BaseState : State
     public StatusController statusController { get { return owner.statusController; }}
     public WorldChoiceController worldChoiceController { get { return owner.worldChoiceController; }}
     public AudioController audioController { get { return owner.audioController; }}
+    public CreditsController creditsController { get { return owner.creditsController; }}
 
     protected virtual void Awake(){
         owner = GetComponent<Controller>();

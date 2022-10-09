@@ -31,12 +31,12 @@ MonoBehaviour:
       ainda assim n\xE3o deixam de ser."
     - "Mas j\xE1 tomei muito do seu tempo. As coisas s\xE3o ef\xEAmeras, as part\xEDculas
       da vida est\xE3o intrinsecamente ligadas ao universo e \xE0 infinitude de tudo,
-      e ainda assim n\xE3o a percebemos. Precisamos extrapolar o \xF3bvio, para conseguir
-      entender todos esses aprendizados vivenciados no dia a dia, e que eu vou simplificar
-      para voc\xEAs de uma forma muito, muito simples."
-    - "Desligue o celular. Preste aten\xE7\xE3o. Eu tenho essa mensagem para voc\xEA. "
+      e ainda assim n\xE3o a percebemos."
+    - "Desligue o celular. Preste aten\xE7\xE3o."
+    - "Eu tenho essa mensagem para voc\xEA. "
     - "Apenas que\u2026 busquem conhecimento "
     speaker:
+    - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
     - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
     - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}
     - {fileID: 21300000, guid: 1a2ad6f716f154e49931edc2c702f3f9, type: 3}

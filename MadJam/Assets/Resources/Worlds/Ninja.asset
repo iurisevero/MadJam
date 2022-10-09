@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
   m_Name: Ninja
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  sprite: {fileID: 21300000, guid: a11a5d8bc0209974a83f49ce3bb5a8a6, type: 3}
   conversationData: {fileID: 11400000, guid: 21f940e7f947c31439936718aeb2be00, type: 2}
   statusInfluence: 4
   valueInfluence: 1

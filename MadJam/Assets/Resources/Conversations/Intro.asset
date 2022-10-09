@@ -25,8 +25,8 @@ MonoBehaviour:
       mas est\xE1 todo mundo precisando tamb\xE9m, e parece que sempre tem algu\xE9m
       mais r\xE1pido e qualificado que eu. Preciso conseguir um emprego e R\xC1PIDO. "
     speaker:
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: 0e2678c3918f82649b1ad00c2ee8a829, type: 3}
+    - {fileID: 21300000, guid: 0e2678c3918f82649b1ad00c2ee8a829, type: 3}
     leftPanel: 1
   - messages:
     - 
@@ -37,13 +37,18 @@ MonoBehaviour:
     - "Ah, pelo menos um! Vamos ver\u2026 Assistente de coveiro. Precisa enterrar
       pessoas, e mesmo assim eu ainda tenho muita coisa pra correr atr\xE1s, para
       conseguir esse emprego. Vamos ver o que eles pedem\u2026"
+    - "Precisa enterrar pessoas, e mesmo assim eu ainda tenho muita coisa pra correr
+      atr\xE1s, para conseguir esse emprego. Vamos ver o que eles pedem\u2026"
     speaker:
+    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     leftPanel: 1
   - messages:
-    - "REQUISITOS PARA O EMPREGO:      CONFIAN\xC7A, CRIATIVIDADE, ORGANIZA\xC7\xC3O
-      E SOCIABILIDADE"
+    - "REQUISITOS PARA O EMPREGO: CONFIAN\xC7A, CRIATIVIDADE, ORGANIZA\xC7\xC3O E
+      SOCIABILIDADE"
+    - Prioridade para ___ e ___.
     speaker:
+    - {fileID: 21300000, guid: 6dcc008da9684f742970dfb02d8888bd, type: 3}
     - {fileID: 21300000, guid: 6dcc008da9684f742970dfb02d8888bd, type: 3}
     leftPanel: 0
   - messages:
@@ -77,10 +82,12 @@ MonoBehaviour:
     - "\xC9, o Jurandir tem uns gostos estranhos. Ele mudou muito depois que comprou
       o livro da shopee."
     - ...
-    - "Isso, o padre da festa junina tamb\xE9m tem roupa l\xE1. Mas acho que n\xE3o
-      precisa se preocupar n\xE3o, o Jurandir \xE9 mais das for\xE7as ocultas, de
-      fazer portal em t\xFAmulo de cemit\xE9rio e acender aqueles incensos que deixa
-      todo mundo com alergia. Ele n\xE3o vai querer essa t\xFAnica esquisita n\xE3o."
+    - "Isso, o padre da festa junina tamb\xE9m tem roupa l\xE1."
+    - ...
+    - "N\xE3o precisa se preocupar n\xE3o, o Jurandir \xE9 mais das for\xE7as ocultas,
+      de fazer portal em t\xFAmulo de cemit\xE9rio e acender aqueles incensos que
+      deixa todo mundo com alergia. Ele n\xE3o vai querer essa t\xFAnica esquisita
+      n\xE3o."
     - ...
     - "Ah, tudo bem, dona L\xFAcia, vou te deixar trabalhar por a\xED. Daqui a pouco
       eu passo a\xED e arranco o Jurandir da cama, mas pode deixar que vou tomar
@@ -89,22 +96,24 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: 8a45fd5da716c4c468a4c970640588a7, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
+    - {fileID: 21300000, guid: 3537cf9e25151f24cade4024917a46f0, type: 3}
     leftPanel: 1
   background: {fileID: 21300000, guid: a2c30774bf972a242b09ecae83aca62f, type: 3}

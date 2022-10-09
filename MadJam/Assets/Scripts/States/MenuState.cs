@@ -10,12 +10,14 @@ public class MenuState : BaseState
 
     public override void Enter(){
         base.Enter();
+        audioController.Play("menu");
         statusController.Hide();
         menuController.Show();
     }
 
     public override void Exit(){
         base.Exit();
+        audioController.Stop("menu");
         menuController.Hide();
         statusController.Show();
     }
@@ -43,14 +45,14 @@ public class MenuState : BaseState
         owner.afterConversationState.Enqueue(States.CutScene);
         owner.afterConversationState.Enqueue(States.CutScene);
         owner.afterConversationState.Enqueue(States.WorldChoice);
-        owner.ChangeState<CutSceneState>();
+        owner.ChangeState<CreditsState>();
 	}
 
     public void SetIntroScene(){
         Status mainStatus = Job.Instance.mainStatus[0];
         Status secondaryStatus = Job.Instance.mainStatus[1];
         ConversationData intro = ConversationLoader.Instance.conversations["Intro"];
-        intro.list[4].messages[0] = "REQUISITOS PARA O EMPREGO:\n" + 
-            $"{mainStatus.ToCustomString()} E {secondaryStatus.ToCustomString()}";
+        intro.list[4].messages[1] = "Prioridade para\n" +
+            $"{mainStatus.ToCustomString()} e {secondaryStatus.ToCustomString()}";
     }
 }

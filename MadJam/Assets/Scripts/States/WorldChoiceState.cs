@@ -44,7 +44,7 @@ public class WorldChoiceState : BaseState
                 owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Derrota"]);
             owner.afterConversationState.Enqueue(States.CutScene);
             owner.afterConversationState.Enqueue(States.CutScene);
-            owner.afterConversationState.Enqueue(States.Menu);
+            owner.afterConversationState.Enqueue(States.Credits);
             owner.ChangeState<CutSceneState>();
         } else {
             List<WorldData> worlds = Week.Instance.week[dayCount];

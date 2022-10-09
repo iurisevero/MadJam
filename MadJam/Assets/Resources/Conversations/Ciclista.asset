@@ -21,7 +21,7 @@ MonoBehaviour:
   - messages:
     - "Na verdade eu estou com um pouco de pressa\u2026 Preciso achar um jeito de
       ter todas as habilidades para a minha entrevista o mais r\xE1pido poss\xEDvel.
-      N\xE3o posso perder essa oportuidade."
+      N\xE3o posso perder essa oportunidade."
     speaker:
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
     leftPanel: 1
@@ -32,11 +32,12 @@ MonoBehaviour:
       com a sociedade."
     - "Foi assim que consegui o emprego que eu mais queria: s\xF3 pela SOCIABILIDADE.
       Tente fazer sua profiss\xE3o por amor, veja como voc\xEA faz parte do seu grupo,
-      e a\xED voc\xEA vai tirar de letra qualquer coisa. Se tiver alguma d\xFAvida,
-      \xE9 s\xF3 pedir ajuda para o seu colega, e algum dia ele vai precisar da sua
-      ajuda tamb\xE9m."
+      e a\xED voc\xEA vai tirar de letra qualquer coisa"
+    - "Se tiver alguma d\xFAvida, \xE9 s\xF3 pedir ajuda para o seu colega, e algum
+      dia ele vai precisar da sua ajuda tamb\xE9m."
     - '*+1 SOCIABILIDADE*'
     speaker:
+    - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
     - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
     - {fileID: 21300000, guid: 16d4dbc3fd5fdbe45a08c6f239c7458b, type: 3}
     - {fileID: 21300000, guid: a295fcde282cea141874f2ba2f9e0201, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
   m_Name: EtBilu
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  sprite: {fileID: 21300000, guid: 0ba2967b3df16fd4d8e139caa43645d2, type: 3}
   conversationData: {fileID: 11400000, guid: 2fa730de81c8a554f973de57ff5c4f11, type: 2}
   statusInfluence: 0
   valueInfluence: 0

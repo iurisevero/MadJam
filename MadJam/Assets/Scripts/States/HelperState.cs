@@ -32,6 +32,9 @@ public class HelperState : BaseState
             case States.Menu:
                 owner.ChangeState<MenuState>();
                 break;
+            case States.Credits:
+                owner.ChangeState<CreditsState>();
+                break;
             default:
                 owner.ChangeState<BaseState>();
                 break;

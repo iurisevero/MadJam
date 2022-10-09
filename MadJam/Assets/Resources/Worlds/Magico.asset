@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
   m_Name: Magico
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  sprite: {fileID: 21300000, guid: 8afedbe08801a0c4592347fa97c9c8a4, type: 3}
   conversationData: {fileID: 11400000, guid: 257c7e58e3084794ea89d5a330b36fff, type: 2}
   statusInfluence: 8
   valueInfluence: 1

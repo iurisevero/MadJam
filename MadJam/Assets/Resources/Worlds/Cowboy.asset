@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
   m_Name: Cowboy
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  sprite: {fileID: 21300000, guid: 26a3c841935027c44a546e9b32bf6838, type: 3}
   conversationData: {fileID: 11400000, guid: d3ac1332a4a7e7341899d9e6be515765, type: 2}
   statusInfluence: 2
   valueInfluence: 1

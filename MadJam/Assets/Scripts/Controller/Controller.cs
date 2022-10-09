@@ -11,6 +11,7 @@ public class Controller : StateMachine
     public StatusController statusController;
     public WorldChoiceController worldChoiceController;
     public AudioController audioController;
+    public CreditsController creditsController;
     public Queue<ConversationData> toPlayConversation;
     public Queue<States> afterConversationState;
 

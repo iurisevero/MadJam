@@ -34,7 +34,7 @@ MonoBehaviour:
   - messages:
     - "*Madares olha o seu curr\xEDculo, e te analisa mais atentamente*"
     speaker:
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: 03d1fe438ce72ca4e95d8681e70770e6, type: 3}
     leftPanel: 1
   - messages:
     - "Ok. N\xE3o sei se \xE9 o suficiente, mas vamos ver os demais requisitos. N\xE3o
@@ -43,24 +43,26 @@ MonoBehaviour:
     - "Agora vamos ver o resto do seu\u2026 curr\xEDculo. Eu preciso terminar de
       ver essas\u2026 coisas que voc\xEA acha que conseguiu antes. Faltam s\xF3 duas.
       Vamos ver sua SOCIABILIDADE."
+    - '*Madares te encara.*'
     speaker:
+    - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     leftPanel: 0
   - messages:
-    - "*Madares te encara, e um nervosismo te pega de repente. Voc\xEA precisa falar
-      alguma coisa, mas a viagem pelos portais te exauriu, e voc\xEA esquece o que
-      Madares tinha perguntado. Voc\xEA olha para Madares, aflita, mas n\xE3o consegue
-      se lembrar do que estavam conversando.*"
+    - "*Voc\xEA precisa falar alguma coisa, mas a viagem pelos portais te exauriu,
+      e voc\xEA esquece o que Madares tinha perguntado.*"
+    - "*Voc\xEA olha para Madares, aflita, mas n\xE3o consegue se lembrar do que
+      estavam conversando.*"
     speaker:
     - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: 354b6cffd4b4bbd4b962f7c5c71c1a49, type: 3}
     leftPanel: 1
   - messages:
     - "Bom, agora a \xFAltima parte. Como voc\xEA consegue se considerar criativa
-      e ter esses outros atributos? A criatividade \xE9 algo leve, flu\xEDdo, que
-      poucos conseguem ter. Pelo seu rosto, certamente voc\xEA n\xE3o usa essa massa
-      cinzenta entre suas orelhas para pensar sobre a CRIATIVIDADE."
+      e ter esses outros atributos? A criatividade \xE9 algo leve, flu\xEDdo; pelo
+      seu rosto, certamente voc\xEA n\xE3o usa essa massa cinzenta entre suas orelhas."
     speaker:
     - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     leftPanel: 0
@@ -77,4 +79,9 @@ MonoBehaviour:
     speaker:
     - {fileID: 21300000, guid: 8e188f89765ca3847b52d20037b0b0c2, type: 3}
     leftPanel: 0
+  - messages:
+    - 
+    speaker:
+    - {fileID: 21300000, guid: 354b6cffd4b4bbd4b962f7c5c71c1a49, type: 3}
+    leftPanel: 1
   background: {fileID: 21300000, guid: 23836174f140a6b4a8bf0d87169bc801, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f468f62c82c744ea0a183d040914b6, type: 3}
   m_Name: Ciclista
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b9aa2217bbc31d244bfc2055668ca223, type: 3}
+  sprite: {fileID: 21300000, guid: 8f8ea69c032a0574aa9e71d84e3a3949, type: 3}
   conversationData: {fileID: 11400000, guid: 360767b7e1076b847bbd069b6db340be, type: 2}
   statusInfluence: 16
   valueInfluence: 1

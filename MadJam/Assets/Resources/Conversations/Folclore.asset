@@ -44,11 +44,12 @@ MonoBehaviour:
       praticamente em si mesmos\u2026 Eu j\xE1 falei como eles s\xE3o arrogantes?"
     - "Onde estava? Ah, sim. Bom, essas criaturas human\xF3ides tamb\xE9m s\xE3o
       bichos. Ent\xE3o eu devo am\xE1-los do mesmo jeito, por mais que eles n\xE3o
-      mere\xE7am. Ent\xE3o \xE9 isso, tente ser uma humana menos insuport\xE1vel
-      para os bichos, e se nisso voc\xEA incluir os humanos, voc\xEA j\xE1 ter\xE1
-      sua SOCIABILIDADE"
+      mere\xE7am"
+    - "Bom, \xE9 isso; tente ser uma humana menos insuport\xE1vel para os bichos,
+      e se nisso voc\xEA incluir os humanos, voc\xEA j\xE1 ter\xE1 sua SOCIABILIDADE"
     - '*+1 SOCIABILIDADE*'
     speaker:
+    - {fileID: 21300000, guid: d683ad57b913aa747b6bd6d2b4c7cc38, type: 3}
     - {fileID: 21300000, guid: d683ad57b913aa747b6bd6d2b4c7cc38, type: 3}
     - {fileID: 21300000, guid: d683ad57b913aa747b6bd6d2b4c7cc38, type: 3}
     - {fileID: 21300000, guid: a295fcde282cea141874f2ba2f9e0201, type: 3}

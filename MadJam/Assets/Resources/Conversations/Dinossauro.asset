@@ -16,7 +16,7 @@ MonoBehaviour:
   - messages:
     - ...
     speaker:
-    - {fileID: 21300000, guid: f48452814b8632f43ab7fc62c9e2e601, type: 3}
+    - {fileID: 21300000, guid: 8a45fd5da716c4c468a4c970640588a7, type: 3}
     leftPanel: 1
   - messages:
     - "Graaaaar! Olhe minhas listras! Voc\xEA sabe porque sou listrado? Porque sou
@@ -29,11 +29,13 @@ MonoBehaviour:
       sabia? Agora posso andar desajeitado do jeito que eu quiser, que eu sei que
       a baba vai me proteger."
     - "Mas bom, mas vamos ao que importa: n\xE3o tenho mais baba de pterod\xE1ctilo,
-      ent\xE3o n\xE3o posso te passar para pintar o cabelo. Mas use sua CRIATIVIDADE,
+      ent\xE3o n\xE3o posso te passar para pintar o cabelo."
+    - "Ah! Mas voc\xEA queria uma dica, n\xE9? Ent\xE3o a\xED vai: use sua CRIATIVIDADE,
       n\xE3o se acanhe de testar coisas novas. E est\xE1 tudo bem se errar tamb\xE9m.
       Faz parte do processo."
     - '*+1 CRIATIVIDADE*'
     speaker:
+    - {fileID: 21300000, guid: 0e3e3a403d0964043b6f78f102460589, type: 3}
     - {fileID: 21300000, guid: 0e3e3a403d0964043b6f78f102460589, type: 3}
     - {fileID: 21300000, guid: 0e3e3a403d0964043b6f78f102460589, type: 3}
     - {fileID: 21300000, guid: 0e3e3a403d0964043b6f78f102460589, type: 3}
