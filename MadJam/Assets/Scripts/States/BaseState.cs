@@ -13,6 +13,7 @@ public class BaseState : State
     public ConversationController conversationController { get { return owner.conversationController; }}
     public StatusController statusController { get { return owner.statusController; }}
     public WorldChoiceController worldChoiceController { get { return owner.worldChoiceController; }}
+    public AudioController audioController { get { return owner.audioController; }}
 
     protected virtual void Awake(){
         owner = GetComponent<Controller>();

@@ -4697,6 +4697,7 @@ GameObject:
   - component: {fileID: 2037636009}
   - component: {fileID: 2037636010}
   - component: {fileID: 2037636011}
+  - component: {fileID: 2037636012}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -4739,6 +4740,7 @@ MonoBehaviour:
   conversationController: {fileID: 2011970827}
   statusController: {fileID: 329948139}
   worldChoiceController: {fileID: 1810073763}
+  audioController: {fileID: 2037636012}
 --- !u!114 &2037636010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4763,6 +4765,155 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a863d7eedd56aee43b4f925293d6b390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2037636012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037636007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a07aeca979e42479c01caeb472e30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: astronauta
+    clip: {fileID: 8300000, guid: 449a70baee75a0d44bd345f3adbc1dd3, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: cemiterio
+    clip: {fileID: 8300000, guid: eb1bbac7ec3377048b432b56590b64d0, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ciclista
+    clip: {fileID: 8300000, guid: 113e89bd8af34d54ab0f5155eb4a165e, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: dinossauro
+    clip: {fileID: 8300000, guid: da61539a3179b1c44a337805cf6bdd16, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: escritorio
+    clip: {fileID: 8300000, guid: 5dbc827f8cc09024189360ec61c36c37, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: folclore
+    clip: {fileID: 8300000, guid: 9998d84f3acc2074484389ffbd66ba20, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: magico
+    clip: {fileID: 8300000, guid: ec6bd195964bd4a47a19974ac53280e0, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: musculoso
+    clip: {fileID: 8300000, guid: 5136ae36182cf3a4199eb6627c30cf38, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ninja
+    clip: {fileID: 8300000, guid: 7d4a8028fb1a5c641bf5ea82de552f26, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: varginha
+    clip: {fileID: 8300000, guid: c15dc55af3bd3ea4180aeb415749b0d3, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: xerife
+    clip: {fileID: 8300000, guid: a8f203b8d67b4074db8a4db8da31a999, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: quarto
+    clip: {fileID: 8300000, guid: 17f61e52069bb9b43ba1233712cd7381, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: selecaoDosMundos
+    clip: {fileID: 8300000, guid: e5d59494b3b77d940acab25a2babda0f, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: vazio
+    clip: {fileID: 8300000, guid: df16bff25c3e6d343bc34fb160e67e15, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: portalFX
+    clip: {fileID: 8300000, guid: e71f741564a7a8741806b06481e9c71c, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
 --- !u!1 &2068494783
 GameObject:
   m_ObjectHideFlags: 0

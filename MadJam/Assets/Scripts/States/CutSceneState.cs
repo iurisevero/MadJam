@@ -13,11 +13,13 @@ public class CutSceneState : BaseState
     public override void Enter(){
         base.Enter();
         data = owner.toPlayConversation.Dequeue();
+        audioController.Play(data.background.name);
         conversationController.Show(data);
     }
 
     public override void Exit(){
         base.Exit();
+        audioController.Stop(data.background.name);
     }
 
     protected override void AddListeners(){

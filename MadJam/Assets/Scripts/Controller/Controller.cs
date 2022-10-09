@@ -10,6 +10,7 @@ public class Controller : StateMachine
     public ConversationController conversationController;
     public StatusController statusController;
     public WorldChoiceController worldChoiceController;
+    public AudioController audioController;
     public Queue<ConversationData> toPlayConversation;
     public Queue<States> afterConversationState;
 

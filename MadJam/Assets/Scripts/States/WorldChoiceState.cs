@@ -6,15 +6,19 @@ public class WorldChoiceState : BaseState
 {
     protected override void Awake(){
         base.Awake();
+        audioController.Play("selecaoDosMundos");
+        audioController.Pause("selecaoDosMundos");
     }
 
     public override void Enter(){
         base.Enter();
+        audioController.UnPause("selecaoDosMundos");
         StartCoroutine(PopulateWorld());
     }
 
     public override void Exit(){
         base.Exit();
+        audioController.Pause("selecaoDosMundos");
         worldChoiceController.Hide();
     }
 
@@ -84,6 +88,7 @@ public class WorldChoiceState : BaseState
         owner.toPlayConversation.Enqueue(conversationData);
         Player.Instance.IncrementStatus(status, value);
         statusController.UpdateStatusValue();
+        audioController.Play("portalFX");
         owner.ChangeState<CutSceneState>();
     }
 
