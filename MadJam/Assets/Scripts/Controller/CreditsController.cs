@@ -13,6 +13,7 @@ public class CreditsController : MonoBehaviour
     [SerializeField] CanvasGroup groupAuthor;
     [SerializeField] TextMeshProUGUI title;
     [SerializeField] TextMeshProUGUI author;
+    public GameObject back;
     public bool finish = false;
     EasingControl easingControlTitle;
     EasingControl easingControlAuthor;
@@ -34,6 +35,7 @@ public class CreditsController : MonoBehaviour
 
     public void Display(List<string> titles, List<List<string>> authors){   
         finish = false;     
+        back.SetActive(false);
         StartCoroutine(Sequence(titles, authors));
     }
 
@@ -69,6 +71,7 @@ public class CreditsController : MonoBehaviour
             textBackground.SetActive(false);
         }
         finish = true;
+        back.SetActive(true);
     }
 
     IEnumerator SequenceAuthor(List<string> authors){

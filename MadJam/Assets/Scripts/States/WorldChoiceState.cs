@@ -13,11 +13,17 @@ public class WorldChoiceState : BaseState
     public override void Enter(){
         base.Enter();
         audioController.UnPause("selecaoDosMundos");
+        worldChoiceController.leftWorld.button.onClick.RemoveAllListeners();
+        worldChoiceController.centerWorld.button.onClick.RemoveAllListeners();
+        worldChoiceController.rightWorld.button.onClick.RemoveAllListeners();
         StartCoroutine(PopulateWorld());
     }
 
     public override void Exit(){
         base.Exit();
+        worldChoiceController.leftWorld.button.onClick.RemoveAllListeners();
+        worldChoiceController.centerWorld.button.onClick.RemoveAllListeners();
+        worldChoiceController.rightWorld.button.onClick.RemoveAllListeners();
         audioController.Pause("selecaoDosMundos");
         worldChoiceController.Hide();
     }
@@ -50,7 +56,6 @@ public class WorldChoiceState : BaseState
             List<WorldData> worlds = Week.Instance.week[dayCount];
 
             worldChoiceController.leftWorld.Display(worlds[0]);
-            worldChoiceController.leftWorld.button.onClick.RemoveAllListeners();
             worldChoiceController.leftWorld.button.onClick.AddListener(
                 delegate { WorldOnClick(
                     worlds[0].conversationData,
@@ -60,7 +65,6 @@ public class WorldChoiceState : BaseState
             });
 
             worldChoiceController.centerWorld.Display(worlds[1]);
-            worldChoiceController.centerWorld.button.onClick.RemoveAllListeners();
             worldChoiceController.centerWorld.button.onClick.AddListener(
                 delegate { WorldOnClick(
                     worlds[1].conversationData,
@@ -70,7 +74,6 @@ public class WorldChoiceState : BaseState
             });
 
             worldChoiceController.rightWorld.Display(worlds[2]);
-            worldChoiceController.rightWorld.button.onClick.RemoveAllListeners();
             worldChoiceController.rightWorld.button.onClick.AddListener(
                 delegate { WorldOnClick(
                     worlds[2].conversationData,

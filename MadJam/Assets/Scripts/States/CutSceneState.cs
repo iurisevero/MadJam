@@ -24,7 +24,6 @@ public class CutSceneState : BaseState
 
     protected override void AddListeners(){
         base.AddListeners();
-        this.AddObserver(OnFire, InputController.FireNotification);
         ConversationController.completeEvent += OnCompleteConversation;
     }
 

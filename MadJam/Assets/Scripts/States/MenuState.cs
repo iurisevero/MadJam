@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MenuState : BaseState
 {
@@ -24,7 +25,6 @@ public class MenuState : BaseState
 
     protected override void AddListeners(){
         base.AddListeners();
-        this.AddObserver(OnFire, InputController.FireNotification);
     }
 
     protected override void RemoveListeners(){
@@ -38,21 +38,22 @@ public class MenuState : BaseState
         Job.Instance.SetRandomStatus();
         Week.Instance.SetWeek();
         owner.statusController.UpdateStatusValue();
-        SetIntroScene();
+        SetMainStatus();
         owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Intro"]);
         owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Vazio"]);
         owner.toPlayConversation.Enqueue(ConversationLoader.Instance.conversations["Cemiterio"]);
         owner.afterConversationState.Enqueue(States.CutScene);
         owner.afterConversationState.Enqueue(States.CutScene);
         owner.afterConversationState.Enqueue(States.WorldChoice);
-        owner.ChangeState<CreditsState>();
+        owner.ChangeState<CutSceneState>();
 	}
 
-    public void SetIntroScene(){
+    public void SetMainStatus(){
         Status mainStatus = Job.Instance.mainStatus[0];
         Status secondaryStatus = Job.Instance.mainStatus[1];
         ConversationData intro = ConversationLoader.Instance.conversations["Intro"];
         intro.list[4].messages[1] = "Prioridade para\n" +
             $"{mainStatus.ToCustomString()} e {secondaryStatus.ToCustomString()}";
+        statusController.SetMainStatus(mainStatus, secondaryStatus);
     }
 }
